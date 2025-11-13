@@ -29,11 +29,15 @@ Click on the Edit button to start working on it
 
 ![Hydra Appearance tab with active theme](images/theme-edit-button.png)
 
-Two windows will open. One is the theme editor, where you will write the CSS for your custom theme. The other one is the Dev Tools for the main window, where you will be able to debug and see all the current HTML and CSS to help you write your theme
+Two windows will open. One is the theme editor, where you will write the CSS for your custom theme, achievements and select a custom achievement sound. The other one is the Dev Tools for the main window, where you will be able to debug and see all the current HTML and CSS to help you write your theme
 
 ![Hydra Theme editor](images/theme-editor-empty.png)
 
-And now you can make your Hydra Launcher looks however you want. For example, this is the CSS for the theme in the next screenshot:
+And now you can make your Hydra Launcher looks however you want. 
+
+You can also add a custom achievement sound to your theme. The sound file should be placed in your theme folder and must be named `achievement` with one of the following extensions: `mp3`, `ogg`, `wav`, or `m4a`. This sound will play when achievements are unlocked.
+
+For example, this is the CSS for the theme in the next screenshot:
 
 ```CSS
 .sidebar,
@@ -114,6 +118,7 @@ Things to note:
 
 - The name of the screenshot file must be `screenshot` and the extension of file the must be one of the following: `png, webp, jpg, jpeg, avif, heic, heif`.
 - The extension of the css file must be `.css`.
+- You can optionally add a custom achievement sound file. The file must be named `achievement` and use one of the following extensions: `mp3`, `ogg`, `wav`, or `m4a`.
 - You must add your friend code to the folder name. Pull Requests that don't have a friend code, or that have a friend code that don't belong to you, will not be accepted.
 - You must not change any other files that don't belong to your theme.
 
