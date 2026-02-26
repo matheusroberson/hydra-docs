@@ -1,6 +1,6 @@
 # What is Hydra Launcher?
 
-![Hydra Launcher](./images/hydra.png)
+![Hydra Launcher](../images/hydra.png)
 
 Hydra Launcher is an open-source gaming platform created to be the single tool that you need in order to manage your gaming library. Hydra is written in Node.js (Electron, React, Typescript) and Python.
 

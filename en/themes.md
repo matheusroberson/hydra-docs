@@ -10,30 +10,30 @@ Hydra lets you add custom themes allowing you to make it looks the way you want.
 
 Themes are available in our [Themes Store](https://hydrathemes.shop/). You can easily install one theme by just clicking the "Install Theme" button.
 
-![Hydra Themes Shop Screenshot](images/theme-shop.png)
+![Hydra Themes Shop Screenshot](../images/theme-shop.png)
 
 ## How to create a custom theme
 
 Go to the Appearance tab in the Settings page and click on the "Create" button.
 
-![Hydra Launcher Settings page](images/settings-page.png)
+![Hydra Launcher Settings page](../images/settings-page.png)
 
 Pick a name for your theme
-![Hydra create theme modal](images/create-theme-modal.png)
+![Hydra create theme modal](../images/create-theme-modal.png)
 
 Click on Set theme to make this your current active theme
 
-![Hydra Appearance tab with active theme](images/activate-theme.png)
+![Hydra Appearance tab with active theme](../images/activate-theme.png)
 
 Click on the Edit button to start working on it
 
-![Hydra Appearance tab with active theme](images/theme-edit-button.png)
+![Hydra Appearance tab with active theme](../images/theme-edit-button.png)
 
 Two windows will open. One is the theme editor, where you will write the CSS for your custom theme, achievements and select a custom achievement sound. The other one is the Dev Tools for the main window, where you will be able to debug and see all the current HTML and CSS to help you write your theme
 
-![Hydra Theme editor](images/theme-editor-empty.png)
+![Hydra Theme editor](../images/theme-editor-empty.png)
 
-And now you can make your Hydra Launcher looks however you want. 
+And now you can make your Hydra Launcher looks however you want.
 
 You can also add a custom achievement sound to your theme. The sound file should be placed in your theme folder and must be named `achievement` with one of the following extensions: `mp3`, `ogg`, `wav`, or `m4a`. This sound will play when achievements are unlocked.
 
@@ -84,7 +84,7 @@ body {
 }
 ```
 
-![Hydra Theme editor with a custom theme code](images/theme-editor.png)
+![Hydra Theme editor with a custom theme code](../images/theme-editor.png)
 
 ## How to publish your custom theme
 
@@ -122,7 +122,7 @@ Things to note:
 - You must add your friend code to the folder name. Pull Requests that don't have a friend code, or that have a friend code that don't belong to you, will not be accepted.
 - You must not change any other files that don't belong to your theme.
 
-![Visual Studio code with hydra-theme repository](images/hydra-theme-project.png)
+![Visual Studio code with hydra-theme repository](../images/hydra-theme-project.png)
 
 ### Commit and Push your theme
 
@@ -137,7 +137,7 @@ Things to note:
 3. Click on "Open pull request"
 4. Click on "Create pull request"
 
-![Hydra Theme Fork](images/github-fork.png)
+![Hydra Theme Fork](../images/github-fork.png)
 
 ### Wait for your theme to be reviewed by the mods
 

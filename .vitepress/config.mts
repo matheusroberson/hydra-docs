@@ -4,6 +4,24 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Hydra Docs",
   description: "Technical documentation for Hydra Launcher",
+
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en-US',
+      dir: "ltr"
+    },
+    pt: {
+      label: 'Português',
+      lang: "pt-BR",
+      dir: "ltr"
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
