@@ -20,7 +20,7 @@ export default {
         items: [
           { text: "Iniciando", link: "/pt/getting-started.md" },
           {
-            text: "Fontes de Download", link: "/pt/download-sources.md",
+            text: "Fontes de download", link: "/pt/download-sources.md",
           },
           { text: "Temas Customizados", link: "/pt/themes.md" },
         ],
