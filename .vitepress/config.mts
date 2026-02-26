@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import ptLocale from "../pt/config"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,20 +7,16 @@ export default defineConfig({
   description: "Technical documentation for Hydra Launcher",
 
   rewrites: {
-    'en/:rest*': ':rest*'
+    "en/:rest*": ":rest*",
   },
 
   locales: {
     root: {
-      label: 'English',
-      lang: 'en-US',
-      dir: "ltr"
+      label: "English",
+      lang: "en-US",
+      dir: "ltr",
     },
-    pt: {
-      label: 'Português',
-      lang: "pt-BR",
-      dir: "ltr"
-    }
+    pt: ptLocale
   },
 
   themeConfig: {
@@ -28,14 +25,14 @@ export default defineConfig({
     sidebar: [
       {
         text: "Introduction",
-        items: [{ text: "What is Hydra Launcher?", link: "/" }],
+        items: [{ text: "What is Hydra Launcher?", link: "/index.md" }],
       },
       {
         text: "Guides",
         items: [
-          { text: "Getting started", link: "/getting-started" },
-          { text: "Download sources", link: "/download-sources" },
-          { text: "Custom themes", link: "/themes" },
+          { text: "Getting started", link: "/getting-started.md" },
+          { text: "Download sources", link: "/download-sources.md" },
+          { text: "Custom themes", link: "/themes.md" },
         ],
       },
     ],

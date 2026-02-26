@@ -1,55 +1,43 @@
-import { defineAdditionalConfig } from 'vitepress'
-
-export default defineAdditionalConfig({
-  title: "Hydra Docs",
-  description: "Documentação Técnica para Hydra Launcher",
+export default {
+  label: "Português",
+  lang: "pt-BR",
+  dir: "ltr",
+  link: "/pt/",
 
   themeConfig: {
-
-
-     sidebar: [
+    sidebar: [
       {
         text: "Introdução",
-        items: [{ text: "O que é o Hydra Launcher?", base: "/pt/", link: "index", }],
+        items: [
+          {
+            text: "O que é Hydra Launcher?",
+            link: "/pt/index.md",
+          },
+        ],
       },
       {
         text: "Guias",
         items: [
-          { text: "Iniciando", base: "/pt/", link: "getting-started" },
-          { text: "Instale Fontes", base: "/pt/", link: "download-sources" },
-          { text: "Temas Customizados", base: "/pt/", link: "themes" },
+          { text: "Iniciando", link: "/pt/getting-started.md" },
+          {
+            text: "Fontes de Download", link: "/pt/download-sources.md",
+          },
+          { text: "Temas Customizados", link: "/pt/themes.md" },
         ],
       },
     ],
-
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: 'Edite esta página no GitHub'
-    },
-
-
     docFooter: {
-      prev: 'Anterior',
-      next: 'Próximo'
+      prev: "Página Anterior",
+      next: "Próxima Página",
     },
-
     outline: {
-      label: 'Nesta página'
+      label: "Nesta página",
     },
-
     lastUpdated: {
-      text: 'Atualizado em'
+      text: "Atualizado em",
     },
-
-    notFound: {
-      title: 'PÁGINA NÃO ENCONTRADA',
-      quote:
-        'Mas se você não mudar de direção e continuar procurando, pode acabar onde está indo.',
-      linkLabel: 'ir para a página inicial',
-      linkText: 'Me leve para casa'
-    },
-
-    langMenuLabel: 'Alterar Idioma',
-
-  }
-})
+    darkModeSwitchLabel: "Aparência",
+    sidebarMenuLabel: "Menu",
+    returnToTopLabel: "Voltar ao topo",
+  },
+};
