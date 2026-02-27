@@ -74,7 +74,7 @@ MAIN_VITE_WS_URL=wss://ws.hydralauncher.gg
 
 ### Qual ambiente eu deveria usar?
 
-Se você está utilizando o Hydra na branch `main`, você deveria escolher `production` na maior parte das vezes. Se você está utilizando o Hydra em outra branch, será melhor escolher `staging`.
+Se você está rodando o Hydra na branch `main`, você deveria escolher `production` na maior parte das vezes. Se você está rodando o Hydra em outra branch, será melhor escolher `staging`.
 
 ### Rodando esse projeto
 

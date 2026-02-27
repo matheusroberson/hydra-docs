@@ -8,17 +8,17 @@ Fontes de download são o componente chave no Hydra. Elas provém um jeito fáci
 
 ## Como fontes de download funcionam
 
-Hydra por padrão não é instalado com nenhuma fonte de download, então você terá que montar uma você mesmo para poder restaurar seus arquivos de jogos dentro do inicializador.
+Hydra por padrão não é instalado com nenhuma fonte de download, então você terá que montar uma você mesmo para poder restaurar os arquivos dos jogos dentro do launcher.
 
 Fontes de download podem ser adicionadas no Hydra Launcher usando uma estrutura de JSON simples que permite que você crie um mapeamento entre os arquivos e titulos dos jogos. Você pode criar e importar quantas fontes de download você quiser.
 
 ::: warning NOTA SOBRE SINCRONIZAÇÃO DE CONTA
-Fontes de download não são sincronizadas por conta por questões de privacidade. Se você desinstalar Hydra, todos as fontes de download que você importou irão ser removidas e você terá que importar elas novamente.
+Fontes de download não são sincronizadas por conta por questões de privacidade. Se você desinstalar Hydra, todos as fontes de download que você importou serão removidas e você terá que importar elas novamente.
 :::
 
 ## Como criar uma fonte de download
 
-A representação de uma fonte de download JSON tem a seguinte estrutura:
+Uma fonte de download JSON tem a seguinte estrutura:
 
 ```json
 {

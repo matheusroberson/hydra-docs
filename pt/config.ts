@@ -22,7 +22,7 @@ export default {
           {
             text: "Fontes de download", link: "/pt/download-sources.md",
           },
-          { text: "Temas Customizados", link: "/pt/themes.md" },
+          { text: "Temas customizados", link: "/pt/themes.md" },
         ],
       },
     ],
